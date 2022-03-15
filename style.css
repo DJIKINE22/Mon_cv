@@ -1,0 +1,147 @@
+ body{
+    background-color:whitesmoke;
+    width:75%;
+    margin: auto;
+     /* min-width: 900px; */
+}
+main{
+margin:auto;
+ max-width:900px;
+background-color:lightblue;
+  box-shadow: 1px 5px 20px black;
+ 
+}
+header{
+    display: block;
+    height:132px;
+    background-color:beige;
+    /* display: grid; */
+  /* grid-template-columns: 80px 1fr 40px; */
+    
+    
+}
+.photo{
+    margin:20px;
+    margin-top:90px;
+    width:135px;
+    height:135px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+.info{
+    margin-left:18%;
+    margin-top:-12%;
+
+}
+.icon{
+    margin-top:-100px;
+    margin-right:250px;
+    width:20px;
+    height:20px;
+}
+h3{
+    color:white;
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid blue;
+    border-radius:20px;
+    width:350px;
+    background-color: blue;
+    
+}
+.djik{
+    color: rgb(44, 41, 209);
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-size: 20px;
+}
+.profil{
+    color:orange;
+    font-weight: bold;
+    letter-spacing: .1,5em;
+    font-size:18px;
+}
+.icon{
+    float:left;
+    margin-left: 400px;
+}
+.ad{
+    float: left;
+margin-top: -21px;
+margin-left: 20px;
+font-weight: bold;
+color: black;
+letter-spacing: .1em;
+}
+.mail{
+    float: left;
+margin-top: -21px;
+margin-left: 25px;
+letter-spacing: .1em;
+font-weight: bold;
+color: black;
+}
+.tel{
+    float: left;
+margin-top: -21px;
+margin-left: 25px;
+letter-spacing: .4em;
+font-weight: bold;
+color: black;
+
+}
+
+.formation{
+    float: right;
+    margin-left: 450px;
+    margin-top:-280px;
+}
+ .competence{ 
+    float: right;
+    margin-left:100px;
+    margin-top:-18px;
+    margin-right: 90px;
+}
+footer{
+    display: block;
+    padding: 20px;
+}
+ul li{
+    list-style:square;
+    padding: 5px;
+} 
+.coll{
+    border: 2px solid blue;
+    width:300px;
+    height: 10px;
+}
+.iner{
+    background-color: orange;
+    height: 100%;
+
+
+}
+
+span{
+    color: royalblue;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+.competence ul li {
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    font-weight: lighter;
+    list-style: none;
+}
+.corps{
+    display: block;
+
+    
+}
+.sect2{
+    float: left;
+}
