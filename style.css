@@ -2,7 +2,7 @@
     background-color:whitesmoke;
     width:75%;
     margin: auto;
-     /* min-width: 900px; */
+      min-width: 900px;
 }
 main{
 margin:auto;
@@ -12,7 +12,9 @@ background-color:lightblue;
  
 }
 header{
-    display: block;
+    position: relative;
+    /* display: grid; */
+    /* grid-template-columns: 80px 1fr 40px; */
     height:132px;
     background-color:beige;
     /* display: grid; */
@@ -22,7 +24,7 @@ header{
 }
 .photo{
     margin:20px;
-    margin-top:90px;
+    margin-top:10px;
     width:135px;
     height:135px;
     border-radius: 50%;
@@ -34,7 +36,7 @@ header{
 
 }
 .icon{
-    margin-top:-100px;
+    margin-top:-50px;
     margin-right:250px;
     width:20px;
     height:20px;
@@ -53,19 +55,23 @@ h3{
 }
 .djik{
     color: rgb(44, 41, 209);
-    font-weight: bold;
+    font-weight:900;
     letter-spacing: .1em;
     font-size: 20px;
+    margin-left:10px;
+    margin-top: -150px;
 }
 .profil{
     color:orange;
     font-weight: bold;
     letter-spacing: .1,5em;
     font-size:18px;
+    margin-left:25px;
+    margin-top: 25px;
 }
 .icon{
     float:left;
-    margin-left: 400px;
+    margin-left: 250px;
 }
 .ad{
     float: left;
@@ -93,18 +99,20 @@ color: black;
 
 }
 
-.formation{
+/* .formation{
     float: right;
     margin-left: 450px;
-    margin-top:-280px;
+    margin-top:-650px;
+    margin-right:5px;
 }
  .competence{ 
     float: right;
     margin-left:100px;
-    margin-top:-18px;
-    margin-right: 90px;
-}
+    margin-top:-350px;
+    /* margin-right: 90px; */
+
 footer{
+    margin-bottom: 30px;
     display: block;
     padding: 20px;
 }
@@ -143,5 +151,7 @@ span{
     
 }
 .sect2{
-    float: left;
+    float: right;
+    margin-top: -650px;
+    margin-left: 500px;
 }
