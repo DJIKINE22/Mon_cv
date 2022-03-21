@@ -1,6 +1,6 @@
  body{
     background-color:whitesmoke;
-    width:75%;
+    /* width:75%; */
     margin: auto;
       min-width: 900px;
 }
@@ -130,6 +130,9 @@ ul li{
     height: 100%;
 
 
+}
+#exp p{
+    margin-left: 20px;
 }
 
 span{
